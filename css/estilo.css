@@ -88,8 +88,13 @@ ul li a.cadastrar {
 **************************************************/
 
 #Home {
-    background: blue;
+    background: url(https://lh3.googleusercontent.com/proxy/57tKB6z2DKtR_eNF-mShGxO2T46FDpzpkl39_-DwgZ5fvPgHz_Vm6FQFrtYeoVu3gfzogrE-YApD1UNmwfREtXbz_xDhnmoNRP3BBj3M4LkhKi92eOB9rNklscywgRpng0z51LNzdcytaUPPUbh1Wg);
+    background-size: 100% 100%;
     height: 450px;
+}
+
+#Carousel {
+    color: white;
 }
 
 .carousel-control-next,
