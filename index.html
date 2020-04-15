@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--Normaliza CSS-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -14,19 +18,115 @@
     <!--JavaScript-->
     <script src="js/javascript.js"></script>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-
+    <!--Tags novas do html5-->
     <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
 
     <title>Dtel-IFCE</title>
-
 </head>
 
 <body>
 
+    <!--header do site-->
+    <!--header do site-->
+    <header>
+        <!--Menu-->
+        <nav class="navbar navbar-expand-md bg-cor-azul">
+            <div class="container">
+                <!--Logo-->
+                <a class="navbar-brand" href="index.html">
+                    <h2 class="text-warning">Dtel</h2>
+                </a>
 
+                <!--Menu responsivo-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+
+                <!--Opções do menu-->
+                <div id="nav-principal" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="">Professores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Laboratórios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="">Solicitações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="">Contato</a>
+                        </li>
+                        <!--Divisor-->
+                        <li class="nav-item divisor"></li>
+                        <li class="nav-item">
+                            <a class="entrar" href="">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="cadastrar" href="">Cadastre-se</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Carousel-->
+    <section id="Home" class="d-flex">
+        <div class="container align-self-center">
+            <div style="text-align: center;" class="row">
+                <div class="col-md-12">
+
+                    <!--Slide-->
+                    <div id="Carousel" class="carousel slide" data-ride="carousel">
+                        <!--Itens-->
+                        <div class="carousel-inner">
+                            <!--Item 1-->
+                            <div class="carousel-item active">
+                                <h2>Janaina Deusa</h2>
+                            </div>
+                            <!--Item 2-->
+                            <div class="carousel-item">
+                                <h2>Bolsa para todos</h2>
+                            </div>
+                            <!--Item 3-->
+                            <div class="carousel-item">
+                                <h2>Quer bolsa? Fala com a Jana</h2>
+                            </div>
+                        </div>
+                        <!--Controles-->
+                        <a href="#Carousel" class="carousel-control-prev" data-slide="prev">
+                            <i class="fas fa-angle-left fa-3x"></i>
+                        </a>
+                        <a href="#Carousel" class="carousel-control-next" data-slide="next">
+                            <i class="fas fa-angle-right fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/home -->
+    <!--Fim carousel-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
