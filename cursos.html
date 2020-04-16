@@ -23,10 +23,8 @@
 
     <!--Tags novas do html5-->
     <!--[if lt IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-    <![endif]-->
-
-
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
 
     <title>Dtel-IFCE</title>
 </head>
@@ -51,12 +49,9 @@
 
                 <!--Opções do menu-->
                 <div id="nav-principal" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
+                    <ul id="Itens-menu" class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link " href="cursos.html">Cursos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="">Professores</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="laboratorio.html">Laboratórios</a>
@@ -65,7 +60,7 @@
                             <a class="nav-link " href="">Solicitações</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="">Contato</a>
+                            <a class="nav-link " href="">Contatos</a>
                         </li>
                         <!--Divisor-->
                         <li class="nav-item divisor"></li>
@@ -81,10 +76,138 @@
         </nav>
     </header>
 
+    <div style="height: 8px; background: #fcca07;"></div>
+
     <!--Conteudo de cursos-->
-    <section id="Conteudo-Da-Pagina-1">
-        Cursos
+    <section id="Cursos">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="">
+                    <!--Botões de cada cursos-->
+                    <nav id="BtnCursos" class="btn-group-vertical">
+                        <button id="EngComput" class="btn btn-lg btn-success" type="button">Engenharia de Computação</button>
+                        <button id="EngTele" class="btn btn-lg btn-success" type="button">Engenharia de Telecomunicações</button>
+                        <button id="Telematica" class="btn btn-lg btn-success" type="button">Tecnologo em Telematica</button>
+                        <button id="TecInfo" class="btn btn-lg btn-success" type="button">Técnico em Informatica</button>
+                        <button id="TecTele" class="btn btn-lg btn-success" type="button">Técnico em Telecomunicações</button>
+                    </nav>
+                </div>
+                <div class="">
+                    <!--Informações sobre cada cursos-->
+                    <div id="informacoes" class="">
+                        <!--Dados da Engenharia de computação-->
+                        <div class="CampoInfo" id="EngComput">
+                            <!--Coordenador do curso-->
+                            <div>
+                                <strong>Coodernador do curso:</strong>&nbsp;Moises Duarte<br>
+                                <strong>Email:</strong>&nbsp;o.amor.da.minha.vida@gmail.com<br>
+                                <strong>Número:</strong>&nbsp;190 chama no probleminha
+                            </div>
+                            <!--Resumo sobre o curso-->
+                            <div>
+                                <strong>Resumo sobre o curso:</strong><br>Cursos somente para pessoas bonitas e com talentos músicas.
+                            </div>
+                            <!--Grade Curricular-->
+                            <div>
+                                <strong>Matriz Curricular do curso:</strong>
+                                <a href="https://ifce.edu.br/umirim/campus_umirim/cursos/tecnicos/integrados/tecnicointegradoagropecuaria/pdf/matriz-curricular-integrado-1.pdf/@@download/file/Matriz%20curricular%20integrado.pdf">Baixar</a>
+                            </div>
+                        </div>
+                        <!--Dados da Engenharia de telecomunicações-->
+                        <div class="CampoInfo" id="EngTele">
+                            <!--Coordenador do curso-->
+                            <div>
+                                <strong>Coodernador do curso:</strong>&nbsp;Alyne Alves<br>
+                                <strong>Email:</strong>&nbsp;feia.que.doi@gmail.com<br>
+                                <strong>Número:</strong>&nbsp;(85) 85227237
+                            </div>
+                            <!--Resumo sobre o curso-->
+                            <div>
+                                <strong>Resumo sobre o curso:</strong><br>Chama no zap que leva vacúo
+                            </div>
+                            <!--Grade Curricular-->
+                            <div>
+                                <strong>Matriz Curricular do curso:</strong>
+                                <a href="https://ifce.edu.br/umirim/campus_umirim/cursos/tecnicos/integrados/tecnicointegradoagropecuaria/pdf/matriz-curricular-integrado-1.pdf/@@download/file/Matriz%20curricular%20integrado.pdf">Baixar</a>
+                            </div>
+                        </div>
+                        <div class="CampoInfo" id="Telematica">
+                            <!--Coordenador do curso-->
+                            <div>
+                                <strong>Coodernador do curso:</strong>&nbsp;Os que trabalham<br>
+                                <strong>Email:</strong>&nbsp;<br>
+                                <strong>Número:</strong>&nbsp;
+                            </div>
+                            <!--Resumo sobre o curso-->
+                            <div>
+                                <strong>Resumo sobre o curso:</strong><br>
+                            </div>
+                            <!--Grade Curricular-->
+                            <div>
+                                <strong>Matriz Curricular do curso:</strong>
+                                <a href="">Baixar</a>
+                            </div>
+                        </div>
+                        <div class="CampoInfo" id="TecInfo">
+                            <!--Coordenador do curso-->
+                            <div>
+                                <strong>Coodernador do curso:</strong>&nbsp;Darkson Bezerra Santos<br>
+                                <strong>Email:</strong>&nbsp;perfeito.lindo@gmail.com<br>
+                                <strong>Número:</strong>&nbsp;40028922 é o funk do yudi
+                            </div>
+                            <!--Resumo sobre o curso-->
+                            <div>
+                                <strong>Resumo sobre o curso:</strong><br> Segue sec,<br> &nbsp;&nbsp;&nbsp;Segue info,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Info que habita em mim, sauda info que habita em você. Infonaste!
+                            </div>
+                            <!--Grade Curricular-->
+                            <div>
+                                <strong>Matriz Curricular do curso:</strong>
+                                <a href="https://ifce.edu.br/umirim/campus_umirim/cursos/tecnicos/integrados/tecnicointegradoagropecuaria/pdf/matriz-curricular-integrado-1.pdf/@@download/file/Matriz%20curricular%20integrado.pdf">Baixar</a>
+                            </div>
+                        </div>
+                        <div class="CampoInfo" id="TecTele">
+                            <!--Coordenador do curso-->
+                            <div>
+                                <strong>Coodernador do curso:</strong>&nbsp;E isso é curso?<br>
+                                <strong>Email:</strong>&nbsp;<br>
+                                <strong>Número:</strong>&nbsp;
+                            </div>
+                            <!--Resumo sobre o curso-->
+                            <div>
+                                <strong>Resumo sobre o curso:</strong><br>
+                            </div>
+                            <!--Grade Curricular-->
+                            <div>
+                                <strong>Matriz Curricular do curso:</strong>
+                                <a href="">Baixar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
@@ -93,8 +216,30 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
-    <!--/home -->
-    <!--Fim carousel-->
+
+    <!-- Codigo para a transição do conteúdos de curos-->
+    <script>
+        function tableshowhide(a, b, c) {
+            len = BtnCursos.childElementCount;
+            closeinformacoes();
+            for (i = 0; i < len; i++) {
+                BtnCursos.children[i].onclick = function() {
+                    closeinformacoes();
+                    informacoes.children[this.id].style.display = "block";
+                }
+            }
+
+            function closeinformacoes() {
+                for (i = 0; i < informacoes.childElementCount; i++) {
+                    informacoes.children[i].style.display = "none";
+                }
+            }
+
+            BtnCursos.children[c].click();
+        }
+
+        tableshowhide("BtnCursos", "informacoes", "EngComput");
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

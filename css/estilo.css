@@ -111,6 +111,10 @@ footer {
 }
 
 
+/* Pagina laboratorios
+******************************************************************/
+
+
 /*Tabela de controle dos laboratorios*/
 
 .NomeLab {
@@ -135,6 +139,24 @@ footer {
 }
 
 
+/* Pagina Cursos
+******************************************************************/
+
+.CampoInfo {
+    background-color: #DCDCDC;
+    border: solid 1px black;
+}
+
+#BtnCursos {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#informacoes {
+    margin-top: 20px;
+}
+
+
 /* Ajustes da responsividade */
 
 @media (max-width: 575.98px) {
@@ -143,6 +165,9 @@ footer {
         font-size: 20px;
         width: 70%;
         margin-left: 15%;
+    }
+    #BtnCursos {
+        border: 1px solid red;
     }
 }
 
