@@ -142,8 +142,8 @@ footer {
         font-size: 17px;
     }
     #TextosCarousel {
-        width: 240px;
-        margin-left: 13%;
+        width: 230px;
+        margin-left: 15%;
         border: 1px solid red;
     }
 }
