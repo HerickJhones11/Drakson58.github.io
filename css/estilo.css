@@ -133,3 +133,57 @@ footer {
     font-family: 'Bree Serif', serif;
     text-align: center;
 }
+
+
+/* Ajustes da responsividade */
+
+@media (max-width: 575.98px) {
+    #Carousel {
+        font-size: 17px;
+    }
+    #TextosCarousel {
+        width: 240px;
+        margin-left: 13%;
+        border: 1px solid red;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #Carousel {
+        font-size: 15px;
+    }
+    #TextosCarousel {
+        width: 440px;
+        margin-left: 45px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #Carousel {
+        font-size: 24px;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #Carousel {
+        font-size: 24px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    #Carousel {
+        font-size: 24px;
+    }
+}
