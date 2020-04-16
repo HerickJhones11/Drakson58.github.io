@@ -138,14 +138,11 @@ footer {
 /* Ajustes da responsividade */
 
 @media (max-width: 575.98px) {
-    #Carousel {
-        border: 1px solid red;
-    }
+    #Carousel {}
     #TextosCarousel {
         font-size: 20px;
         width: 70%;
         margin-left: 15%;
-        border: 1px solid green;
     }
 }
 
@@ -154,18 +151,17 @@ footer {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     #Carousel {}
-    #TextosCarousel {
-        border: 1px solid yellow;
-    }
+    #TextosCarousel {}
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    #Carousel {}
     #TextosCarousel {
-        border: 1px solid blue;
+        font-size: 25px;
+        width: 70%;
+        margin-left: 15%;
     }
 }
 
@@ -173,9 +169,13 @@ footer {
 /*Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    #Carousel {}
     #TextosCarousel {
-        border: 1px solid red;
+        font-size: 33px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    #Itens-menu {
+        width: 610px;
     }
 }
 
