@@ -164,6 +164,32 @@ footer {
 }
 
 
+/* Página entrar
+********************************************/
+
+#PaginaEntrar {
+    margin-bottom: 20px;
+}
+
+#FormularioEntrar {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/* Página cadastrar
+********************************************/
+
+#PaginaCadastrar {
+    margin-bottom: 20px;
+}
+
+#FormularioCadastramento {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 /* Ajustes da responsividade */
 
 @media (max-width: 575.98px) {
