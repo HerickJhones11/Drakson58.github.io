@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--Normaliza CSS-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -19,12 +20,25 @@
     <script src="js/javascript.js"></script>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!--Tags novas do html5-->
     <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
+
+    <style>
+        .card-login {
+            padding: 30px 0 0 0;
+
+            width: 550px;
+
+            margin-left: 760px;
+            margin-bottom: 80px;
+    </style>
+
+
 
     <title>Dtel-IFCE</title>
 </head>
@@ -82,46 +96,48 @@
     <div style="height: 8px; background: #fcca07;"></div>
 
     <!--Conteudo da pagina entrar-->
-    <section id="PaginaCadastrar">
-        <div class="text-center" style="background: #DCDCDC;">
-            <strong>Cadastra-se</strong>
-        </div>
-        <div id="FormularioCadastramento">
-            <!--Entrada de email-->
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input id="email" class="form-control form-control-sm" type="email" placeholder="Digite seu email">
+    <div class="card-login">
+        <div class="card">
+            <div class="card-header">
+                <h3>Registrar</h3>
             </div>
-            <!--Entra usuario-->
-            <div class="form-group">
-                <label for="usuario">Matricula:</label>
-                <input id="usuario" class="form-control form-control-sm" type="text" placeholder="Digite sua matricula">
-            </div>
-            <!--Entra da senha-->
-            <div class="form-group">
-                <label for="usuario">Senha:</label>
-                <input id="usuario" class="form-control form-control-sm" type="password" placeholder="Digite sua senha">
-                <small class="form-text">Atenção, essa senha será usada somente nesse sistema.</small>
-            </div>
-            <!--Confirmação de senha-->
-            <div class="form-group">
-                <label for="usuario">Digite a senha novamente:</label>
-                <input id="usuario" class="form-control form-control-sm" type="password" placeholder="Digite a senha novamente">
+            <div class="card-body">
+                <form action="cadastro.php" method="POST">
+                    <div class="form-group">
 
+                        <select name="curso" class="form-control" placeholder="curso">
+                            <option>Selecione o curso</option>
+                            <option>Engenharia de Telecomunicações</option>
+                            <option>Engenharia de Computação</option>
+                            <option>Telemática</option>
+                            <option>Telecomunicações</option>
+                            <option>Informática</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input name="email" type="email" class="form-control" placeholder="E-mail">
+                    </div>
+
+                    <div class="form-group">
+                        <input name="senha" type="password" class="form-control" placeholder="Senha">
+                    </div>
+                    <div class="form-group">
+                        <input name="senha" type="password" class="form-control" placeholder="Confirme a senha">
+                    </div>
+                    <select name="categoria" class="form-control" placeholder="categoria">
+                        <option>Selecione a categoria</option>
+                        <option>Aluno</option>
+                        <option>Bolsista</option>
+                        <option>Professor</option>
+
+                    </select>
             </div>
-            <!--Select de professor, bolsista ou aluno-->
-            <div class="form-group">
-                <label for="individuo">Quem é você?</label>
-                <select id="individuo" class="form-control">
-                <option>...</option>
-                <option>Professor</option>
-                <option>Bolsista</option>
-                <option>Aluno</option>
-            </select>
-            </div>
-            <input class="btn btn-primary" type="submit" value="Cadastrar">
+
+
+            <button class="btn btn-lg btn-dark btn-block" type="submit">Criar conta</button>
+            </form>
         </div>
-    </section>
+    </div>
 
 
 
@@ -138,7 +154,8 @@
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
         <!-- Copyright -->
-        <div class="footer-copyright text-center text-white py-2">© 2020 Developed by: Alyne Alves and Darkson Bezerra</div>
+        <div class="footer-copyright text-center text-white py-2">© 2020 Developed by: Alyne Alves and Darkson Bezerra
+        </div>
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
@@ -146,9 +163,15 @@
     <!--Fim carousel-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
