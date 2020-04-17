@@ -160,14 +160,14 @@ footer {
 /* Ajustes da responsividade */
 
 @media (max-width: 575.98px) {
-    #Carousel {}
+    #Home {
+        height: 150px;
+        border: 1px solid red;
+    }
     #TextosCarousel {
-        font-size: 20px;
+        font-size: 17px;
         width: 70%;
         margin-left: 15%;
-    }
-    #BtnCursos {
-        border: 1px solid red;
     }
 }
 
