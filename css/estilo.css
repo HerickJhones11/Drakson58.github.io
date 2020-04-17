@@ -115,6 +115,13 @@ footer {
 ******************************************************************/
 
 
+/*Botões de escolha dos turnos */
+
+#Turnos {
+    margin-top: 20px;
+}
+
+
 /*Tabela de controle dos laboratorios*/
 
 .NomeLab {
